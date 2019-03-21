@@ -1,0 +1,121 @@
+.resultinnerdiv{ 
+ border:1px solid grey;   
+ display:inline-block;
+ height:200px;
+ width:200px;
+ margin-top:30px;
+ margin-right:10px;
+ margin-left:125px;
+ overflow: auto;
+ align-content: flex-end;
+ 
+}
+.resultouterdiv{
+   
+    display: flex;
+    flex-direction: row;
+    border-left:1px solid gray;
+    border-right:1px solid gray;
+    border-bottom:1px solid gray;
+    height:300px;
+    width:800px;
+    margin-left:200px;
+
+}
+.descriptiondiv{
+    padding-left:10px;
+    color:red;
+    display:inline-block;
+
+}
+.minutediv{
+    padding-right:5px;
+    display:inline-block;
+}
+.totalminutediv{
+
+    display:inline-block;
+    padding-right:5px;
+    padding-top:20px;
+    display:inline-block;
+    
+}
+.projectdiv{
+    
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 15px;
+    font-weight:bold;
+    display:inline-block;
+
+}
+.formdiv{
+ border:1px solid grey;   
+ margin-left:200px;
+ margin-top:70px;
+ height:300px;
+ width:800px;
+ vertical-align:right;
+
+
+
+}
+.projectformdiv{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:10px;
+    
+}
+.labelform{
+    padding-right:20px;
+}
+.buttonstyle{
+    height:200px;
+    width:100px;
+
+    float: left;
+    margin-left:20px;
+
+}
+.innerformdiv{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.descriptionformdiv{
+    width:500px;
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-left:35px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+.minuteformdiv{
+    width:500px;
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-left:60px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+.selectstyle{
+    height:20px;
+    width:100px;
+
+}
+.buttondiv{
+
+    height:auto;
+    width:auto;
+}
+.errorlabel{
+    color:red;
+    font-size: 10px;
+    margin-left:10px;
+}
